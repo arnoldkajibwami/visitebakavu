@@ -1,0 +1,136 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+  body {
+      margin: 0px !important;
+      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Oswald', sans-serif;
+  }
+
+  .backgroundhome {
+      background-image: url("./images/kivu1.jpg");
+      background-size: cover;
+      background-position: center;
+      /* background-attachment: fixed; */
+      height: 85vh;
+      position: relative;
+  }
+
+  .homecontent {
+      /* text-align: center; */
+      position: relative;
+      top: 35%;
+      /* margin: -50% 0 0 -50%; */
+      color: white;
+
+  }
+
+  .homecontent h1 {
+      font-size: 60px;
+      letter-spacing: 20px;
+  }
+
+  .homecontent p {
+      margin-bottom: 0px;
+  }
+
+  @media (max-width:600px) {
+      .homecontent {
+          top: 30vh;
+          left: 30vh;
+      }
+  }
+
+  .formboxs {
+      background-color: rgb(37, 37, 37);
+      /* display: flex; */
+      padding: 20px;
+  }
+
+  #formtype {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 8px;
+  }
+
+  #formtype p {
+      margin-right: 10px;
+  }
+
+  #formtype select {
+      margin-right: 8px;
+  }
+
+
+  #formtype input {
+      margin-right: 8px;
+  }
+
+  .allDestinations {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      justify-content: center;
+  }
+
+  @media (max-width: 950px) {
+      .allDestinations {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+
+      .destinationbox {
+          margin: 10px !important;
+      }
+  }
+
+  .destinationbox {
+      position: relative;
+      background-image: url("./images/bukavu1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 240px;
+      width: 250px;
+      margin: 5px;
+      border-radius: 5px;
+  }
+
+  .destinationid {
+      display: flex;
+      justify-content: space-between;
+      min-width: 240px;
+      max-width: 240px;
+      position: absolute;
+      bottom: 35px;
+      left: 5px;
+      padding: 5px;
+      color: white;
+      font-size: 25px;
+      transform: translateY(35px);
+  }
+
+  .socialbukavu {
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  #h6box {
+      background-color: rgb(37, 37, 37);
+      color: white;
+  }
+
+  #phonelink {
+      text-decoration: none !important;
+      color: black;
+      font-size: 12px;
+  }
+
+  .socialnetwork {
+      margin-right: 5px;
+  }
+
+  i:hover {
+      color: rgb(105, 104, 104);
+  }
