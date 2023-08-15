@@ -55,16 +55,50 @@
 
   #formtype p {
       margin-right: 10px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        border-bottom:1px solid white;
+        border-top:1px solid rgb(255, 255, 255);
+        color:white;     
   }
-
   #formtype select {
       margin-right: 8px;
-  }
-
-
+        border-radius: 5px;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        border-bottom:1px solid white;
+        border-top:1px solid rgb(255, 255, 255);
+        color:white;
+    }
   #formtype input {
       margin-right: 8px;
-  }
+        border-radius: 5px;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        border-bottom:1px solid white;
+        border-top:1px solid rgb(255, 255, 255);
+        color:white;
+    }
+    #formtype button{
+        background-color: white;
+        color: rgb(37, 37, 37);
+        border: none;
+    }
+    #formtype button:hover{
+        /* background-color: white; */
+        color: rgb(37, 37, 37);
+        transition: all ease-in-out 0.5s;
+    }   
+option{
+    color:rgb(37, 37, 37)
+}
+::placeholder{
+    color: white;
+}
 
   .allDestinations {
       display: grid;
@@ -130,6 +164,25 @@
         color: white;
         font-size: 20px;
       transform: translateY(0px);
+    }
+    #formtype p {
+        margin-right: 0px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    #formtype select {
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    #formtype input {
+        margin-right: 0px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    #formtype button{
+        margin-top: 10px;
+        margin-left: 10px;
     }
   }
 

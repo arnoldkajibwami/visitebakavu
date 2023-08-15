@@ -34,7 +34,7 @@ const Header = () => {
         <div className=" Navcontainer">
           <div className="logo d-flex">
             <img style={{ height: "30px", width: "30px", borderRadius: "259px", marginRight: "5px" }} src={Brandlogo} alt='logo' />
-            <h4>Sud-Kivu</h4>
+            <Link to="/" style={{textDecoration:"none"}}><h4>Sud-Kivu</h4></Link>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             {/* <button className='btn btn-danger'>Back</button> */}

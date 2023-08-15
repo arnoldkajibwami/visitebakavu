@@ -10,7 +10,7 @@ const Dataitems = () => {
                 {Data.map((item, index) => {
                     return (
                         <>
-                            <div >
+                            <div className="mb-1">
                                 <Items
                                     image={item.image}
                                     ville={item.ville}

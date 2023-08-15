@@ -1,7 +1,7 @@
 import React from "react";
-import  Image1  from "./images/bukavu2.png";
 import "./style.css"
 import Destinationcontent from "./Destinationcontent";
+import Culture from "./Culture";
 
 export default function Home() {
     return (
@@ -24,10 +24,16 @@ export default function Home() {
                     </select>
                     <input style={{width:"120px"}} type="date" name="date" />
                     <input style={{width:"120px"}} type="text" name="text" placeholder="Travel engine"/>
-                    <button style={{width:"120px", textTransform:"capitalize"}} className="btn btn-danger">search</button>
+                    <button style={{width:"120px", textTransform:"capitalize"}} className="btn">search</button>
                 </div>
         </section>
+        <section className="mt-5 container text-center">
+                <h4 className="">Popular Destination</h4>
+                <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                    <br />omnis ad sequi debitis delectus dolore, ex libero.</p>
+            </section>
         <Destinationcontent/>
+        <Culture/>
         </>
     );
 }
