@@ -16,15 +16,15 @@ export default function Home() {
         </section>
         <section className="formboxs">
                 <div id="formtype">
-                    <select>
+                    <select style={{width:"120px"}}>
                         <option value="Park">Park</option>
                         <option value="hotel">Hotel</option>
                         <option value="Musey">Musey</option>
                         <option value="Other">Other</option>
                     </select>
-                    <input type="date" name="date" />
-                    <input type="text" name="text" placeholder="Travel engine"/>
-                    <button className="btn btn-danger">search</button>
+                    <input style={{width:"120px"}} type="date" name="date" />
+                    <input style={{width:"120px"}} type="text" name="text" placeholder="Travel engine"/>
+                    <button style={{width:"120px", textTransform:"capitalize"}} className="btn btn-danger">search</button>
                 </div>
         </section>
         <Destinationcontent/>

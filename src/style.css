@@ -11,18 +11,14 @@
       background-image: url("./images/kivu1.jpg");
       background-size: cover;
       background-position: center;
-      /* background-attachment: fixed; */
       height: 85vh;
       position: relative;
   }
 
   .homecontent {
-      /* text-align: center; */
       position: relative;
       top: 35%;
-      /* margin: -50% 0 0 -50%; */
       color: white;
-
   }
 
   .homecontent h1 {
@@ -34,16 +30,19 @@
       margin-bottom: 0px;
   }
 
-  @media (max-width:600px) {
-      .homecontent {
-          top: 30vh;
-          left: 30vh;
-      }
-  }
 
+  @media (max-width:600px) {
+    .homecontent {
+        top: 30vh;
+        padding: 10px;
+    }
+    .homecontent h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
   .formboxs {
       background-color: rgb(37, 37, 37);
-      /* display: flex; */
       padding: 20px;
   }
 
@@ -113,7 +112,7 @@
 
   .socialbukavu {
       justify-content: space-around;
-      flex-wrap: wrap;
+      transform: translateY(-5px);
   }
 
   #h6box {
@@ -124,12 +123,21 @@
   #phonelink {
       text-decoration: none !important;
       color: black;
-      font-size: 12px;
+      font-size: 15px;
+  }
+  @media (max-width:800px){
+    .socialnetwork{
+        color: white;
+        font-size: 20px;
+      transform: translateY(0px);
+    }
   }
 
   .socialnetwork {
       margin-right: 5px;
+      font-size: 20px;
   }
+
 
   i:hover {
       color: rgb(105, 104, 104);

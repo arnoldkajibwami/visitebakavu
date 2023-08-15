@@ -43,9 +43,9 @@ const Header = () => {
             <span> </span>
           </div>
           <div className={`mt-2 nav-elements  ${showNavbar && 'active'}`}>
-          <div className='menu-closed' onClick={handleShowNavbar}>
-            <span>Close</span>
-          </div>
+            <div className='menu-closed' onClick={handleShowNavbar}>
+              <span>Close</span>
+            </div>
             <ul>
               <li>
                 <NavLink to="/home">Home</NavLink>
@@ -62,8 +62,21 @@ const Header = () => {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
+              <div className='tonone'>
+              <li className='phonediv'>
+                    <i className='socialnetwork'><BiPhoneCall /></i>
+                    <Link to="/" id='phonelink'>+243 999 888 777</Link>
+                  </li>
+                <li id='socialnet'>
+                  <i className='socialnetwork' style={{ marginLeft: "5px" }}><BiLogoInstagram /></i>
+                  <i className='socialnetwork'><BiLogoFacebook /></i>
+                  <i className='socialnetwork'><BiLogoTwitter /></i>
+                </li>
+              </div>
             </ul>
+
           </div>
+
           <div className='d-flex socialbukavu flexnone'>
             <div className='d-flex socialbkv'>
               <div className='phonediv'>

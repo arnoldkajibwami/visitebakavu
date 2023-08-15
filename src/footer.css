@@ -6,6 +6,7 @@
     font-size: 14px;
     padding: 80px 0 60px 0;
     position: relative;
+    margin-top: 0px !important;
   }
   
   .footers {
@@ -18,7 +19,9 @@
     position: absolute;
     inset: 0;
   }
-  
+  .footer-content{
+    padding-top: 50px;
+  }
   .footer .footer-content .footer-info {
     margin-bottom: 30px;
   }

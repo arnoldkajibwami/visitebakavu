@@ -17,9 +17,11 @@
   color: rgb(37, 37, 37);
   z-index: 1;
 }
-.tonone{
+
+.tonone {
   display: none !important;
 }
+
 .navbar.colorChange {
   background-color: white !important;
   transition: 0.3s ease-in-out !important;
@@ -27,7 +29,7 @@
 
 .menu-icon span {
   display: block;
-  background-color:rgb(37, 37, 37);
+  background-color: rgb(37, 37, 37);
   height: 3px;
   width: 25px;
   position: relative;
@@ -56,7 +58,8 @@
 .menu-icon {
   display: none;
 }
-.nav-elements{
+
+.nav-elements {
   display: flex;
 }
 
@@ -79,7 +82,7 @@
 }
 
 .nav-elements ul a.active {
-  color:rgb(201, 1, 1);
+  color: rgb(201, 1, 1);
   font-weight: 500;
   position: relative;
 }
@@ -99,61 +102,81 @@
     margin-right: 30px;
   }
 }
-.menu-closed{
+
+.menu-closed {
   display: none;
 }
+
 @media (max-width: 800px) {
-  .menu-icon{
+  .menu-icon {
     display: block;
     z-index: 0;
   }
-  .menu-closed{
+
+  .tonone{
+    display: block !important;
+    position: absolute !important;
+    bottom: 50px !important;
+  }
+
+  #socialnet{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-15px);
+  }
+
+  .menu-closed {
     display: block;
     color: white;
     transform: translateY(-30px) translateX(200px);
     cursor: pointer;
   }
-  .menu-icon span::after{
+
+  .menu-icon span::after {
     background-color: #ffffff;
   }
+
   .nav-elements ul a {
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
-    /* color: rgb(255, 255, 255); */
     text-decoration: none;
   }
 
   .navbar {
     position: fixed;
-    height: auto;
+    width: 100%;
   }
-  #phonelink{
+
+  #phonelink {
     color: white !important;
   }
 
-  .flexnone{
+  .flexnone {
     display: none !important;
   }
+
   .nav-elements {
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 60px;
-    background-color: #000000;
+    top:0 !important;
+    transform: translateY(-10px);
+    background: rgb(37, 37, 37);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
     width: 0px;
-    height: calc(100vh - 60px);
-    transition: all 0.3s ease-in;
+    height: 101vh;
+    padding-top: 50px;
+    transition: all 0.4s ease-in-out;
     overflow: hidden;
   }
-
 
   .nav-elements.active {
     width: 270px;
   }
 
   .nav-elements ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
   .nav-elements ul li {
@@ -163,7 +186,7 @@
 }
 
 @media (max-width: 600px) {
- 
+
   .nav-elements {
     position: fixed;
     right: 0;
@@ -185,7 +208,7 @@
 
   .nav-elements ul {
     display: block;
-    
+
   }
 
   .nav-elements ul li {
@@ -197,17 +220,10 @@
 /* End Navbar */
 
 
-.socialbukavu{
-  /* justify-content: space-between; */
-  /* background-color: rgb(37, 37, 37) !important; */
-  /* color: white !important; */
-}
-.socialbkv{
-  /* justify-content: space-between; */
-}
-.mail{
+.mail {
   margin-right: 15px;
 }
-.socialnetworks{
+
+.socialnetworks {
   margin-left: 15px;
 }
