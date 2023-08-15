@@ -36,6 +36,7 @@
 }
 .paraArt {
 	padding: 20px;
+	
 }
 
 .exploreitem img {
@@ -65,5 +66,8 @@
 	}
 	.explore{
 		margin-left: 0px;
+	}
+	.paraArt{
+		padding-left: 0px;
 	}
 }

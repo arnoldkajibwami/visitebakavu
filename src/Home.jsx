@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css"
 import Destinationcontent from "./Destinationcontent";
 import Culture from "./Culture";
+import { Link } from "react-router-dom";
 
 export default function Home() {
+
     return (
         <>
         <section className="backgroundhome text-center">
@@ -11,7 +13,7 @@ export default function Home() {
                 <p>Welcome</p>
                 <h1>Sud-Kivu</h1>
                 <p className="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit elit.</p>
-                <button className="btn btn-success">Explore Now</button>
+                <Link to="/explore"><button className="btn btn-success">Explore Now</button></Link>
             </div>
         </section>
         <section className="formboxs">

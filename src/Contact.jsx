@@ -1,9 +1,12 @@
 import React from "react";
+import Contactdetails from "./Contactdetails";
+import Breadcrumb from "./Breadcrump";
 
-export default function Contact () {
-    return(
+export default function Contact() {
+    return (
         <>
-            <h1 className="container">Contact Page</h1>
+            <Breadcrumb page={"Contact"} />
+            <Contactdetails/>
         </>
     );
 }
