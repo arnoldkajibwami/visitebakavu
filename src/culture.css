@@ -34,9 +34,10 @@
 	display: grid;
 	grid-template-columns: 65% auto;
 }
+
 .paraArt {
 	padding: 20px;
-	
+
 }
 
 .exploreitem img {
@@ -54,20 +55,65 @@
 	.cultureArt {
 		display: block;
 	}
-	.exploreitem img{
+
+	.exploreitem img {
 		height: 400px;
 		width: 100%;
 		object-fit: cover;
 		margin: 0px;
 	}
-	.cultureArt img{
+
+	.cultureArt img {
 		height: 400px;
 		width: 100%;
 	}
-	.explore{
+
+	.explore {
 		margin-left: 0px;
 	}
-	.paraArt{
+
+	.paraArt {
 		padding-left: 0px;
 	}
+}
+
+.culturedata {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cultureimage {
+	height: 40vh;
+	width: 40%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.culturedetails {
+	width: 40%;
+	margin-left: 20px;
+}
+
+#territoireid {
+	z-index: 99999;
+	color:yellow;
+	background-color: transparent;
+	font-size: 25px;
+	width: 150px;
+}
+
+@media (max-width:800px) {
+	.cultureimage {
+		width: 100%
+	}
+
+	.culturedetails {
+		width: 100%;
+	}
+
 }

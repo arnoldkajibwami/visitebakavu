@@ -1,7 +1,11 @@
-#aboutSection{
-    display: grid;
-    grid-template-columns: 100%;
+#aboutSection {
     margin-bottom: 50px;
     width: 50%;
-    margin-top: 0px !important;
+    margin-top: 50px !important;
+}
+
+@media(max-width: 500px) {
+    #aboutSection {
+        width:95%;
+    }
 }
