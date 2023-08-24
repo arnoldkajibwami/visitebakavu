@@ -2,16 +2,18 @@ import React from "react";
 import Breadcrumb from "./Breadcrump";
 import Image1 from "./images/forest.jpg"
 import AboutDetails from "./AboutDetails";
+import Clip1 from './images/clip1.mp4'
+import Video from "./Video";
 
 export default function Explore() {
     return (
         <>
-            <Breadcrumb
+            <Video
+                Clip={Clip1}
                 page={"Explore"}
-                image={Image1}
             />
             {/* <h1>Explore Sud-kivu</h1> */}
-            <AboutDetails/>
+            <AboutDetails />
         </>
     )
 } 

@@ -9,6 +9,8 @@ import Blog from "./Blog";
 import Footer from "./Footer";
 import Culturedetails from "./Culturedetails";
 import Explore from "./Explore";
+import Video from "./Video";
+// import Videodetails from "./Videodetails";
 
 
 function App() {
