@@ -1,8 +1,6 @@
 /* Navbar */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
-
 .navbar {
   /* background-color: transparent; */
   background-color: rgb(37, 37, 37);
@@ -11,6 +9,8 @@
   position: fixed;
   z-index: 9999;
   width: 100%;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
 }
 
 .logo h4 {
@@ -52,7 +52,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 100%;
+  width: 100% ;
 }
 
 .menu-icon {
@@ -113,13 +113,13 @@
     z-index: 0;
   }
 
-  .tonone{
+  .tonone {
     display: block !important;
     position: absolute !important;
     bottom: 50px !important;
   }
 
-  #socialnet{
+  #socialnet {
     display: flex;
     justify-content: space-between;
     transform: translateX(-15px);
@@ -159,7 +159,7 @@
   .nav-elements {
     position: fixed;
     right: 0;
-    top:0 !important;
+    top: 0 !important;
     transform: translateY(-10px);
     background: rgb(37, 37, 37);
     backdrop-filter: blur(20px);

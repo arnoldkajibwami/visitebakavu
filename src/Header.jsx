@@ -28,8 +28,6 @@ const Header = () => {
   return (
     <Fragment>
 
-
-
       <nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
         <div className=" Navcontainer">
           <div className="logo d-flex">
