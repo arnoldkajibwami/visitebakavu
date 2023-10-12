@@ -1,10 +1,10 @@
 import { React } from "react";
 import Bukavu from "./images/bukavu2.png"
-import Gorilla from "./images/gorilla2.jpg"
 import "./culture.css"
 import { useNavigate } from "react-router-dom";
-import Explore from "./Explore";
-import Breadcrumb from "./Breadcrump";
+
+import Clip1 from './images/clip1.mp4'
+import Video from "./Video";
 
 export default function Culture() {
 
@@ -16,11 +16,11 @@ export default function Culture() {
 
     function exploreMore() {
         window.scrollTo(0, 60)
-        navigate("/explore")
+        navigate("/kauzi")
     }
 
     return (
-        <>    
+        <>
             <section className="culturebag mb-5" >
                 <section className="container mt-5 " id="culture">
                     <div className="cultureArt">
@@ -37,17 +37,22 @@ export default function Culture() {
                             <div className="explore">
                                 <div className="explorebox">
                                     <div className="exploreitem">
-                                        <img src={Gorilla} alt="..." />
+                                        {/* <img src={Gorilla} alt="..." /> */}
+                                        <Video
+                                            Clip={Clip1}
+                                            height={50}
+                                            width={40}
+                                        />
                                     </div>
                                 </div>
                             </div>
                             <div className="paraArt">
-                                <h6>Explore Sud-kivu</h6>
+                                <h6>Kauzi Biega Sud-kivu</h6>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.</p>
-                                <button onClick={exploreMore} className="btn btn-success mb-5">Explore now</button>
+                                <button onClick={exploreMore} className="btn btn-success mb-5">Explore Now</button>
                             </div>
                         </div>
                     </div>

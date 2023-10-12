@@ -1,9 +1,13 @@
 import React from "react";
+import Breadcrumb from "./Breadcrump";
+import Culture from "./Culture";
+import Culturedetails from "./Culturedetails";
 
 export default function Blog () {
     return(
         <>
-            <h1 className="container">Blog</h1>
+            {/* <Breadcrumb page={"Culture"}/> */}
+            <Culturedetails/>
         </>
     );
 }

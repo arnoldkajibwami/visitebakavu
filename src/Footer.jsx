@@ -45,7 +45,7 @@ export default function Footer() {
                                     <li><Link to="/home "  onClick={BackToTOP} className="nav-links"> Accueil</Link></li>
                                     <li><Link to="/about "  onClick={BackToTOP} className="nav-links"> Apropos</Link></li>
                                     <li><Link to="/destination "  onClick={BackToTOP} className="nav-links"> Destination</Link></li>
-                                    <li><Link to="/blog "  onClick={BackToTOP} className="nav-links"> Blog</Link></li>
+                                    <li><Link to="/culture "  onClick={BackToTOP} className="nav-links"> culture</Link></li>
                                     <li><Link to="/contact "  onClick={BackToTOP} className="nav-links"> Contact</Link></li>
                                 </ul>
                             </div>

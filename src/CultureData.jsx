@@ -11,6 +11,7 @@ const CultureData =
             title: "Bashi",
             territoire: "kabare",
             image: Image1,
+            more:"More",
             text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla impedit pariatur temporibus porro voluptas."
         },
 
@@ -19,6 +20,7 @@ const CultureData =
             title: "Lega",
             territoire: "Shabunda",
             image: Image6,
+            more:"More",
             text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla impedit pariatur temporibus porro voluptas."
         },
          {
@@ -26,6 +28,7 @@ const CultureData =
             title: "Banyamulenge",
             territoire: "TBD",
             image: Image4,
+            more:"More",
             text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla impedit pariatur temporibus porro voluptas."
         },
          {
@@ -33,6 +36,7 @@ const CultureData =
             title: "Other",
             territoire: "Kausi-biega",
             image: Image5,
+            more:"More",
             text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla impedit pariatur temporibus porro voluptas."
         },
     ]

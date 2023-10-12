@@ -32,15 +32,17 @@
 
 
   @media (max-width:600px) {
-    .homecontent {
-        top: 30vh;
-        padding: 10px;
-    }
-    .homecontent h1{
-        font-size: 40px;
-        letter-spacing: 10px;
-    }
-}
+      .homecontent {
+          top: 30vh;
+          padding: 10px;
+      }
+
+      .homecontent h1 {
+          font-size: 40px;
+          letter-spacing: 10px;
+      }
+  }
+
   .formboxs {
       background-color: rgb(37, 37, 37);
       padding: 20px;
@@ -55,50 +57,56 @@
 
   #formtype p {
       margin-right: 10px;
-        border-radius: 5px;
-        background-color: transparent;
-        border: none;
-        padding: 5px;
-        border-bottom:1px solid white;
-        border-top:1px solid rgb(255, 255, 255);
-        color:white;     
+      border-radius: 5px;
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid rgb(255, 255, 255);
+      color: white;
   }
+
   #formtype select {
       margin-right: 8px;
-        border-radius: 5px;
-        background-color: transparent;
-        border: none;
-        padding: 5px;
-        border-bottom:1px solid white;
-        border-top:1px solid rgb(255, 255, 255);
-        color:white;
-    }
+      border-radius: 5px;
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid rgb(255, 255, 255);
+      color: white;
+  }
+
   #formtype input {
       margin-right: 8px;
-        border-radius: 5px;
-        background-color: transparent;
-        border: none;
-        padding: 5px;
-        border-bottom:1px solid white;
-        border-top:1px solid rgb(255, 255, 255);
-        color:white;
-    }
-    #formtype button{
-        background-color: white;
-        color: rgb(37, 37, 37);
-        border: none;
-    }
-    #formtype button:hover{
-        /* background-color: white; */
-        color: rgb(37, 37, 37);
-        transition: all ease-in-out 0.5s;
-    }   
-option{
-    color:rgb(37, 37, 37)
-}
-::placeholder{
-    color: white;
-}
+      border-radius: 5px;
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid rgb(255, 255, 255);
+      color: white;
+  }
+
+  #formtype button {
+      background-color: white;
+      color: rgb(37, 37, 37);
+      border: none;
+  }
+
+  #formtype button:hover {
+      /* background-color: white; */
+      color: rgb(37, 37, 37);
+      transition: all ease-in-out 0.5s;
+  }
+
+  option {
+      color: rgb(37, 37, 37)
+  }
+
+  ::placeholder {
+      color: white;
+  }
 
   .allDestinations {
       display: grid;
@@ -159,31 +167,36 @@ option{
       color: black;
       font-size: 15px;
   }
-  @media (max-width:800px){
-    .socialnetwork{
-        color: white;
-        font-size: 20px;
-      transform: translateY(0px);
-    }
-    #formtype p {
-        margin-right: 0px;
-        margin-top: 10px;
-        padding: 5px;
-    }
-    #formtype select {
-        margin-right: 10px;
-        margin-top: 10px;
-        padding: 5px;
-    }
-    #formtype input {
-        margin-right: 0px;
-        margin-top: 10px;
-        padding: 5px;
-    }
-    #formtype button{
-        margin-top: 10px;
-        margin-left: 10px;
-    }
+
+  @media (max-width:800px) {
+      .socialnetwork {
+          color: white;
+          font-size: 20px;
+          transform: translateY(0px);
+      }
+
+      #formtype p {
+          margin-right: 0px;
+          margin-top: 10px;
+          padding: 5px;
+      }
+
+      #formtype select {
+          margin-right: 10px;
+          margin-top: 10px;
+          padding: 5px;
+      }
+
+      #formtype input {
+          margin-right: 0px;
+          margin-top: 10px;
+          padding: 5px;
+      }
+
+      #formtype button {
+          margin-top: 10px;
+          margin-left: 10px;
+      }
   }
 
   .socialnetwork {
@@ -194,4 +207,54 @@ option{
 
   i:hover {
       color: rgb(105, 104, 104);
+  }
+
+  .cardss {
+      width: 250px;
+      height: 350px;
+      padding: .8em;
+      background: #ffffff;
+      position: relative;
+      overflow: visible;
+      margin:10px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .cardss-img {
+      /* background-color: #ffcaa6; */
+      height: 45%;
+      width: 100%;
+      border-radius: .3rem;
+      transition: .3s ease;
+  }
+
+  .cardss-info {
+      padding-top: 5%;
+  }
+
+  .cardss-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+  }
+
+  /*Text*/
+  .text-title {
+      font-weight: 900;
+      font-size: 1.2em;
+      line-height: 1.5;
+  }
+
+  .text-body {
+      font-size: .9em;
+      padding-bottom: 10px;
+  }
+
+  /*Hover*/
+  .cardss-img:hover {
+      transform: translateY(-25%);
+      box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
   }

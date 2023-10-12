@@ -6,7 +6,7 @@ import CultureItems from "./CultureItems";
 const CultureDataitems = () => {
     return (
         <>
-            <div className="cultureitemsbox">
+            <div className="mt-5 allDestinations">
                 {CultureData.map((item, index) => {
                     return (
                         <>
@@ -17,6 +17,7 @@ const CultureDataitems = () => {
                                     territoire={item.territoire}
                                     text={item.text}
                                     item={item}
+                                    more={item.more}
                                     key={index}
                                 />
                             </div>

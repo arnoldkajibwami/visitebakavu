@@ -4,7 +4,7 @@ import './navbar.css'
 import { BiLogoInstagram } from "react-icons/bi"
 import { BiLogoFacebook } from "react-icons/bi"
 import { BiLogoTwitter } from "react-icons/bi"
-import { BiPhoneCall } from "react-icons/bi"
+// import { trna } from "react-icons/bi"
 import Brandlogo from "./images/flag.jpg"
 
 const Header = () => {
@@ -57,16 +57,24 @@ const Header = () => {
                 <NavLink to="/destination">Destination</NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/culture">Culture</NavLink>
+              </li>
+              <li>
+                <NavLink to="/map">Map</NavLink>
               </li>
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
+              <hr/>
               <div className='tonone'>
-              <li className='phonediv'>
-                    <i className='socialnetwork'><BiPhoneCall /></i>
-                    <Link to="/" id='phonelink'>+243 999 888 777</Link>
-                  </li>
+              {/* <li className='phonediv'> */}
+                    {/* <i className='socialnetwork'><BiPhoneCall /></i> */}
+                    {/* <Link to="/" id='phonelink'>+243 999 888 777</Link> */}
+                  {/* </li> */}
+                  <select>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                  </select>
                 <li id='socialnet'>
                   <i className='socialnetwork' style={{ marginLeft: "5px" }}><BiLogoInstagram /></i>
                   <i className='socialnetwork'><BiLogoFacebook /></i>
@@ -79,10 +87,15 @@ const Header = () => {
 
           <div className='d-flex socialbukavu flexnone'>
             <div className='d-flex socialbkv'>
-              <div className='phonediv'>
+              {/* <div className='phonediv'>
                 <i className='socialnetwork'><BiPhoneCall /></i>
                 <Link to="/" id='phonelink'>+243 999 888 777</Link>
-              </div>
+              </div> */}
+              <hr/>
+              <select>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                  </select>
             </div>
             <div>
               <i className='socialnetwork' style={{ marginLeft: "5px" }}><BiLogoInstagram /></i>
