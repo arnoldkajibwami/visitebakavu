@@ -10,7 +10,7 @@ export default function Culturedetails() {
     return (
         <>
             <Video
-                Clip={Clip2}
+                Clipvideo={Clip2}
                 page={"Culture"}
             />
             <div className="container text-center mt-5">

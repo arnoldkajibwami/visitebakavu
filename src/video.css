@@ -10,10 +10,11 @@
 }
 
 .videoall{
-    top: 28vh;
+    top: 23vh;
     text-align: center;
     justify-content: center;
     z-index: 999;
+    left: 65px;
 }
 
 .h4video{

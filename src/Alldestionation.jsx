@@ -11,7 +11,7 @@ export default function AllDestinations() {
 
             <Tabs >
                 <TabList className="container" style={{ marginTop: "20px" }}>
-                    <Tab style={{ color: "#001253" }}>TOp Destionation</Tab>
+                    <Tab style={{ color: "#001253" }}>Popular Destionation</Tab>
                     <Tab style={{ color: "#001253" }}>Territoire</Tab>
                 </TabList>
 

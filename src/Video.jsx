@@ -6,8 +6,7 @@ export default function Video(props) {
         <>
             <div>
                 <video loop autoPlay muted id='bg-video'>
-                    {/* <source src={Clip1} type='video/mp4' /> */}
-                    <source src={props.Clip} type='video/mp4' />
+                    <source src={props.Clipvideo} type='video/mp4' />
                 </video>
             </div>
             <div className='container position-absolute d-flex flex-column align-items-center videoall'>

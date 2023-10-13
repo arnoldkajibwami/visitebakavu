@@ -226,6 +226,16 @@
       width: 100%;
       border-radius: .3rem;
       transition: .3s ease;
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+  }
+
+  .cardss-img #territoire{
+    background-color: black;
+    padding: 3px;
+    width: auto  !important;
+    border-radius: .3rem;
   }
 
   .cardss-info {

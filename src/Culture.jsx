@@ -4,7 +4,8 @@ import "./culture.css"
 import { useNavigate } from "react-router-dom";
 
 import Clip1 from './images/clip1.mp4'
-import Video from "./Video";
+// import Video from "./Video";
+import Videoexplore from "./videoexplore";
 
 export default function Culture() {
 
@@ -38,7 +39,7 @@ export default function Culture() {
                                 <div className="explorebox">
                                     <div className="exploreitem">
                                         {/* <img src={Gorilla} alt="..." /> */}
-                                        <Video
+                                        <Videoexplore
                                             Clip={Clip1}
                                             height={50}
                                             width={40}

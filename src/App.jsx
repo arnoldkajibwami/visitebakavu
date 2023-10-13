@@ -12,6 +12,9 @@ import Explore from "./Explore";
 import KauziBiega from "./KauziBiega";
 import Moreculture from "./Moreculture";
 import Mappage from "./Mappage";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("your GA measurement id");
 
 function App() {
 

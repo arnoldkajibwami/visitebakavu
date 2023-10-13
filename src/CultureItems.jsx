@@ -11,7 +11,6 @@ export default function CultureItems(props) {
 
     return (
         <>
-
             <div className="cardss">
                 <div className="cardss-img" style={{ backgroundImage: `url(${props.image})` }}>
                     <h6 id="territoire">{props.territoire} Territoire</h6>
