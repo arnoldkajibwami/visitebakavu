@@ -46,22 +46,22 @@ const Header = () => {
             </div>
             <ul>
               <li>
-                <NavLink to="/home">Home</NavLink>
+                <NavLink to="/home" onClick={handleShowNavbar}>Home</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about" onClick={handleShowNavbar}>About</NavLink>
               </li>
               <li>
-                <NavLink to="/destination">Destination</NavLink>
+                <NavLink to="/destination" onClick={handleShowNavbar}>Destination</NavLink>
               </li>
               <li>
-                <NavLink to="/culture">Culture</NavLink>
+                <NavLink to="/culture" onClick={handleShowNavbar}>Culture</NavLink>
               </li>
               <li>
-                <NavLink to="/map">Map</NavLink>
+                <NavLink to="/map" onClick={handleShowNavbar}>Map</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" onClick={handleShowNavbar}>Contact</NavLink>
               </li>
               <hr/>
               <div className='tonone'>
@@ -70,8 +70,8 @@ const Header = () => {
                     {/* <Link to="/" id='phonelink'>+243 999 888 777</Link> */}
                   {/* </li> */}
                   <select>
-                    <option value="English">English</option>
-                    <option value="French">French</option>
+                    <option value="English" onClick={handleShowNavbar}>English</option>
+                    <option value="French" onClick={handleShowNavbar}>French</option>
                   </select>
                 <li id='socialnet'>
                   <i className='socialnetwork' style={{ marginLeft: "5px" }}><BiLogoInstagram /></i>
@@ -91,8 +91,8 @@ const Header = () => {
               </div> */}
               <hr/>
               <select>
-                    <option value="English">English</option>
-                    <option value="French">French</option>
+                    <option value="English" onClick={handleShowNavbar}>English</option>
+                    <option value="French" onClick={handleShowNavbar}>French</option>
                   </select>
             </div>
             <div>

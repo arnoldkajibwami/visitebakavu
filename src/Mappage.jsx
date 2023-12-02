@@ -18,7 +18,7 @@ export default function Mappage() {
 
         <>
             <Breadcrumb page={"Map"} />
-            <h1 className="mt-5 text-center">Sud-Kivu Map</h1>
+            <h1 className="mt-5 text-center">RD CONGO Map</h1>
             <div className="container" style={{ height: '100vh', width: '100%', marginBottom:"50px", marginTop:"50px"}}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "" }}

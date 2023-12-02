@@ -75,6 +75,7 @@
       border-bottom: 1px solid white;
       border-top: 1px solid rgb(255, 255, 255);
       color: white;
+
   }
 
   #formtype input {
@@ -231,7 +232,7 @@
       color: #ffffff;
   }
 
-  .cardss-img #territoire{
+  .cardss-img #Province{
     background-color: black;
     padding: 3px;
     width: auto  !important;
@@ -267,4 +268,13 @@
   .cardss-img:hover {
       transform: translateY(-25%);
       box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+  }
+
+  .selectstyle{
+    /* background: red; */
+    border: none;
+  }
+
+  .selectstyle :hover{
+    border: none !important;
   }

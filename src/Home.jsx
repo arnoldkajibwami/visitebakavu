@@ -30,7 +30,7 @@ export default function Home() {
                 </div> */}
         {/* </section> */}
         <section className="mt-5 container text-center">
-                <h4 className="">Popular Destination</h4>
+                <h4 className="">Famous Destination</h4>
                 <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                     <br />omnis ad sequi debitis delectus dolore, ex libero.</p>
             </section>
