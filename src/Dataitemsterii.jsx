@@ -15,7 +15,8 @@ const Dataitemsterii = () => {
                                 <Link to="/home">
                                     <ItemsTerritoire
                                     image={item.image}
-                                    Territoire={item.Territoire}
+                                    pcapital={item.pcapital}
+                                    Province={item.Province}
                                     item={item}
                                     key={index}
                                 />

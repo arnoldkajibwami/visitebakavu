@@ -28,7 +28,7 @@ export default function Culture() {
                         <div className="Culture">
                             <img src={Bukavu} alt="bukavu" />
                             <div>
-                                <h1>Meat the congolese Culture</h1>
+                                <h1>Meet the congolese Culture</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <button onClick={openWin} className="btn btn-success mb-5">Read More</button>

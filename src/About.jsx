@@ -3,7 +3,6 @@ import "./about.css"
 import Breadcrumb from "./Breadcrump";
 import Image1 from "./images/flag.jpg"
 import AboutDetails from "./AboutDetails";
-
 export default function About() {
     return (
         <>
@@ -11,7 +10,7 @@ export default function About() {
                 page={"About"}
                 image={Image1}
             />
-            <AboutDetails/>
+            <AboutDetails />
         </>
     );
 }

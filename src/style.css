@@ -8,7 +8,8 @@
   }
 
   .backgroundhome {
-      background-image: url("./images/kivu1.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url("./images/kivu1.jpg"),
+          linear-gradient(to left bottom, rgba(0, 0, 255, 0.25), rgba(255, 0, 0, 0.25), rgba(255, 255, 0, 0.25));
       background-size: cover;
       background-position: center;
       height: 85vh;
@@ -22,8 +23,8 @@
   }
 
   .homecontent h1 {
-      font-size: 60px;
-      letter-spacing: 20px;
+      font-size: 40px;
+      letter-spacing: 10px;
   }
 
   .homecontent p {
@@ -129,7 +130,7 @@
 
   .destinationbox {
       position: relative;
-      background-image: url("./images/bukavu1.png");
+      /* background-image: url("./images/bukavu1.png"); */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -138,6 +139,14 @@
       margin: 5px;
       border-radius: 5px;
   }
+
+  .destinationbox:hover {
+      /* background: url(''),
+          linear-gradient(rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.7));
+      background-blend-mode: overlay; */
+  }
+
 
   .destinationid {
       display: flex;
@@ -152,6 +161,7 @@
       font-size: 25px;
       transform: translateY(35px);
   }
+
 
   .socialbukavu {
       justify-content: space-around;
@@ -217,7 +227,7 @@
       background: #ffffff;
       position: relative;
       overflow: visible;
-      margin:10px;
+      margin: 10px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
 
@@ -232,11 +242,11 @@
       color: #ffffff;
   }
 
-  .cardss-img #Province{
-    background-color: black;
-    padding: 3px;
-    width: auto  !important;
-    border-radius: .3rem;
+  .cardss-img #Province {
+      background-color: black;
+      padding: 3px;
+      width: auto !important;
+      border-radius: .3rem;
   }
 
   .cardss-info {
@@ -270,11 +280,11 @@
       box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
   }
 
-  .selectstyle{
-    /* background: red; */
-    border: none;
+  .selectstyle {
+      /* background: red; */
+      border: none;
   }
 
-  .selectstyle :hover{
-    border: none !important;
+  .selectstyle :hover {
+      border: none !important;
   }

@@ -10,39 +10,39 @@ const Data =
    [
       {
          id: "1",
-         Territoire: "TDB",
-         ville: "Bukavu",
+         Territoire: "Kahuzi Biega",
+         ville: "Sud-kivu",
          image: Image1
       },
 
       {
          id: "2",
-         Territoire: "TDB",
-         ville: "Kabare",
+         Territoire: "Nyirangogno",
+         ville: "Nord-kivu",
          image: Image6
       },
       {
          id: "3",
-         Territoire: "TDB",
-         ville: "LacKivu",
+         Territoire: "Kingakati",
+         ville: "Kinshasa",
          image: Image4
       },
       {
          id: "4",
-         Territoire: "TDB",
-         ville: "Kausi-biega",
+         Territoire: "Lushi",
+         ville: "Haut-katanga",
          image: Image5
       },
       {
          id: "5",
-         Territoire: "TDB",
-         ville: "Bukavu2",
+         Territoire: "Tanganyika",
+         ville: "Lac Tanganyika",
          image: Image2
       },
       {
          id: "6",
-         Territoire: "TDB",
-         ville: "Bukavu",
+         Territoire: "kadjuchu",
+         ville: "Capital",
          image: Image3
       },
 

@@ -1,6 +1,9 @@
 import React from "react";
 import ImageContact from "./images/forest.jpg"
 import './contact.css'
+import { FaLocationArrow } from 'react-icons/fa'
+import { BiEnvelope } from 'react-icons/bi'
+import { BiPhone } from 'react-icons/bi'
 
 export default function Contactdetails() {
     return (
@@ -13,23 +16,26 @@ export default function Contactdetails() {
                     <div className="row gy-4 mb-5">
                         <div className="col-lg-6 itemRaduis">
                             <div className="info-item  d-flex flex-column justify-content-center align-items-center">
-                                <i className="bi bi-map"></i>
+                                {/* <i className="bi bi-map"></i> */}
+                                <i><FaLocationArrow /></i>
                                 <h3>Our Address</h3>
-                                <p>DRC/ Goma</p>
+                                <p>DRC / Kinshasa</p>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6 itemRaduis">
                             <div className="info-item d-flex flex-column justify-content-center align-items-center">
-                                <i className="bi bi-envelope"></i>
+                                {/* <i className="bi bi-envelope"></i> */}
+                                <i><BiEnvelope /></i>
                                 <h3>Email Us</h3>
-                                <p>Groupealing@gmail.com</p>
+                                <p>visitedrc@congo.cd</p>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6 itemRaduis">
                             <div className="info-item  d-flex flex-column justify-content-center align-items-center">
-                                <i className="bi bi-telephone"></i>
+                                {/* <i className="bi bi-telephone"></i> */}
+                                <i><BiPhone /></i>
                                 <h3>Call Us</h3>
                                 <p>+243 999 888 777</p>
                             </div>

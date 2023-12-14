@@ -5,7 +5,7 @@ export default function AboutDetails() {
         <>
             {/* <div style={{ height: "50px" }}></div> */}
             <section id="aboutSection" className="container ">
-                <div style={{ position: "relative", top: "5" }}>
+                {/* <div style={{ position: "relative", top: "5" }}>
                     <h1>Welcom to Sud-Kivu</h1>
                     <article>South Kivu (Swahili: Jimbo la Kivu Kusini; French: Sud-Kivu) is one of 26 provinces of the Democratic Republic of
                         the Congo (DRC). Its capital is Bukavu.
@@ -25,6 +25,11 @@ export default function AboutDetails() {
                         South Kivu is a melting pot of various ethnic groups, including the Shi, Fuliiru, Bembe, Vira, Nyindu, Holoholo,
                         Bwari, Hunde, Nyanga, Amba, Swaga, Shu, and Mbuti. The region is also home to a small fraction of Hutu and Tutsi
                         agro-pastoralists who were transplanted by Belgian colonial authorities in the mid-20th century.
+                    </article>
+                </div> */}
+                <div>
+                    <article style={{fontWeight:"bold"}}>
+                        The Democratic Republique of Congo is located in the center of africa .....
                     </article>
                 </div>
             </section>

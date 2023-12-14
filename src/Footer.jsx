@@ -24,12 +24,13 @@ export default function Footer() {
 
                             <div className="col-lg-4 col-md-6">
                                 <div className="footer-info">
-                                    <h3>SUD-KIVU</h3>
+                                    <h3>DRCongo</h3>
                                     <p>
-                                        Bukavu <br />
-                                        SUD-KIVU /RDC<br /><br />
+                                        Democratique  <br />
+                                        Republique  <br />
+                                        of Congo<br /><br />
                                         <strong>Phone:</strong> +243 999 888 777<br />
-                                        <strong>Email:</strong> sudkivu@congo.cd<br />
+                                        <strong>Email:</strong> visitedrc@congo.cd<br />
                                     </p>
                                     <div className="social-links d-flex mt-3">
                                         <Link to="/home" className="d-flex align-items-center justify-content-center"><i><BiLogoFacebook/></i></Link>
@@ -42,11 +43,11 @@ export default function Footer() {
                             <div className="col-lg-2 col-md-3 footer-links">
                                 <h4>Links</h4>
                                 <ul>
-                                    <li><Link to="/home "  onClick={BackToTOP} className="nav-links"> Accueil</Link></li>
-                                    <li><Link to="/about "  onClick={BackToTOP} className="nav-links"> Apropos</Link></li>
-                                    <li><Link to="/destination "  onClick={BackToTOP} className="nav-links"> Destination</Link></li>
-                                    <li><Link to="/culture "  onClick={BackToTOP} className="nav-links"> culture</Link></li>
-                                    <li><Link to="/contact "  onClick={BackToTOP} className="nav-links"> Contact</Link></li>
+                                    <li><Link to="/home"        onClick={BackToTOP} className="nav-links"> Accueil     </Link></li>
+                                    <li><Link to="/about"       onClick={BackToTOP} className="nav-links"> Apropos     </Link></li>
+                                    <li><Link to="/destination" onClick={BackToTOP} className="nav-links"> Destination </Link></li>
+                                    <li><Link to="/culture"     onClick={BackToTOP} className="nav-links"> culture     </Link></li>
+                                    <li><Link to="/contact"     onClick={BackToTOP} className="nav-links"> Contact     </Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -72,7 +73,7 @@ export default function Footer() {
                             </button>
                         </div>
                         <div className="copyright">
-                            &copy; Copyright <strong><span><Link to="www.sudkivu.cd" className="Madename">Sud-kivu</Link></span></strong>. All Rights Reserved
+                            &copy; Copyright <strong><span><Link to="www.sudkivu.cd" className="Madename">DRCongo</Link></span></strong>. All Rights Reserved
                         </div>
                         <div className="credits">
                             Made by <Link to="https://auctux.com/" className="Madename">Auctux</Link>
